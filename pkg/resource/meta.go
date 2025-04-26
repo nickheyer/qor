@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/nickheyer/qor"
-	"github.com/nickheyer/qor/utils"
+	qor "github.com/nickheyer/qor/pkg"
+	"github.com/nickheyer/qor/pkg/utils"
 	"github.com/qor/roles"
 	"github.com/qor/validations"
 )

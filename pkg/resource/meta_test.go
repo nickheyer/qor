@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/nickheyer/admin"
-	"github.com/nickheyer/qor"
-	"github.com/nickheyer/qor/resource"
+	admin "github.com/nickheyer/admin/pkg"
+	qor "github.com/nickheyer/qor/pkg"
+	"github.com/nickheyer/qor/pkg/resource"
+	"github.com/nickheyer/qor/pkg/utils"
 	testutils "github.com/nickheyer/qor/test/utils"
-	"github.com/nickheyer/qor/utils"
 	"github.com/qor/publish2"
 	"github.com/qor/sorting"
 )

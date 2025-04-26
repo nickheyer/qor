@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nickheyer/qor"
-	"github.com/nickheyer/qor/utils"
+	qor "github.com/nickheyer/qor/pkg"
+	"github.com/nickheyer/qor/pkg/utils"
 )
 
 func convertMapToMetaValues(values map[string]interface{}, metaors []Metaor) (*MetaValues, error) {
