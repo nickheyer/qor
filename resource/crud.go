@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/qor"
-	"github.com/qor/qor/utils"
+	"github.com/nickheyer/qor"
+	"github.com/nickheyer/qor/utils"
 	"github.com/qor/roles"
 )
 

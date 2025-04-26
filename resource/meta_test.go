@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
+	"github.com/nickheyer/admin"
+	"github.com/nickheyer/qor"
+	"github.com/nickheyer/qor/resource"
+	testutils "github.com/nickheyer/qor/test/utils"
+	"github.com/nickheyer/qor/utils"
 	"github.com/qor/publish2"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
-	testutils "github.com/qor/qor/test/utils"
-	"github.com/qor/qor/utils"
 	"github.com/qor/sorting"
 )
 
@@ -916,7 +916,7 @@ func registerVersionNameCallback(db *gorm.DB) {
 	db.Callback().Create().After("gorm:begin_transaction").Register("publish2:version_priority", updateVersionPriority())
 }
 
-//  Test assigning associations when creating new version. the associations should assign to correct version after save
+// Test assigning associations when creating new version. the associations should assign to correct version after save
 func TestAssigningAssociationsOnNewVersion(t *testing.T) {
 	db := testutils.GetTestDB()
 	productsMeta := setupProductWithVersionMeta(t, db)

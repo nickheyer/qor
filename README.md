@@ -25,7 +25,7 @@ QOR is not a "boxed turnkey solution". You need proper coding skills to use it. 
 
 ## The modules
 
-* [Admin](https://github.com/qor/admin) - The core part of QOR system, will generate an admin interface and RESTFul API for you to manage your data
+* [Admin](https://github.com/nickheyer/admin) - The core part of QOR system, will generate an admin interface and RESTFul API for you to manage your data
 
 * [Publish](https://github.com/qor/publish) - Providing a staging environment for all content changes to be reviewed before being published to the live system
 
@@ -48,7 +48,7 @@ QOR is not a "boxed turnkey solution". You need proper coding skills to use it. 
 ## Live DEMO
 
 * Live Demo [http://demo.getqor.com/admin](http://demo.getqor.com/admin)
-* Source Code of Live Demo [https://github.com/qor/qor-example](https://github.com/qor/qor-example)
+* Source Code of Live Demo [https://github.com/nickheyer/qor-example](https://github.com/nickheyer/qor-example)
 
 ## Frontend Development
 
